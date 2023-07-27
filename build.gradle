@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'ru.netology'
+group 'ru.netology.web'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 11
@@ -18,7 +18,7 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.6.1'
     testImplementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
-
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.3.0'
 }
 
 test {
